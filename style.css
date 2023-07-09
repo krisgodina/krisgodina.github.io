@@ -1,6 +1,6 @@
 .bpw-layout {
-  height: 500px; /* adjust as needed */
-  max-height: 500px; /* adjust as needed */
-  min-height: 200px; /* adjust as needed */
+  height: 100px; /* adjust as needed */
+  max-height: 100px; /* adjust as needed */
+  min-height: 100px; /* adjust as needed */
   overflow-y: auto;
 }
