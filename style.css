@@ -1,4 +1,6 @@
 .bp-widget-web {
-  max-height: 500px !important; /* adjust as needed */
+  height: 500px; /* adjust as needed */
+  max-height: 500px; /* adjust as needed */
+  min-height: 200px; /* adjust as needed */
   overflow-y: auto;
 }
