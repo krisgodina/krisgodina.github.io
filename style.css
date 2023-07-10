@@ -1,5 +1,13 @@
+/* Default style (for small screens) */
 .bpw-layout {
-  height: 70vh;
+  height: 100vh;
+}
+
+/* Style for screens larger than 768px */
+@media (min-width: 768px) {
+  .bpw-layout {
+    height: 70vh;
+  }
 }
 
 /* Style for the composer section */
