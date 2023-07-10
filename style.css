@@ -1,12 +1,12 @@
 /* Default style (for small screens) */
 .bpw-layout {
-  height: 100vh;
+  height: 100%;
 }
 
 /* Style for screens larger than 768px */
 @media (min-width: 768px) {
   .bpw-layout {
-    height: 70vh;
+    height: 100%;
   }
 }
 
