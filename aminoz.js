@@ -8,5 +8,6 @@ window.botpressWebChat.init({
     "showBotInfoPage": true,
     "enableConversationDeletion": true,
     "showConversationsButton": false,
+    "showTimestamp": true,
     "stylesheet": 'https://krisgodina.github.io/style.css',
 });
