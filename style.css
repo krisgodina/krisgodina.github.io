@@ -11,3 +11,7 @@
 }
 
 
+.bpw-composer textarea {
+  background: orange; /* or #ffa500 */
+  /* rest of the code */
+}
