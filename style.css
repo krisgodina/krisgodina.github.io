@@ -1,12 +1,12 @@
 /* Default style (for small screens) */
 .bpw-layout {
-  height: 100%;
+  
 }
 
 /* Style for screens larger than 768px */
 @media (min-width: 768px) {
   .bpw-layout {
-    height: 80%;
+    height: 700px;
   }
 }
 
@@ -32,15 +32,11 @@
   justify-content: space-between; /* Align items to the start and end of the container */
 }
  
-/* Style for the composer textarea */
-.bpw-composer-textarea {
-  flex-grow: 2; /* Allow the textarea to grow to fill the available space */
-}
  
 /* Styles for the textarea element in the composer */
 .bpw-composer textarea {
   /* Sets the background color to a variable named "--white" */
-  background: var(--white);
+  background: var(--orange);
   /* Sets the border to a 1-pixel solid line using a variable named "--zinc-200" */
   border: 1px solid var(--zinc-200);
   /* Sets the border radius to a variable named "--spacing-medium" to make the edges rounded */
