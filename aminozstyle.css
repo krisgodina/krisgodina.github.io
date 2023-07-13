@@ -2,7 +2,7 @@
 
 /* Style the header */
 .bpw-header-container {
-    background: orange;
+  background: orange;
 }
 
 /* Style the send button */
@@ -18,7 +18,8 @@
 }
 
 /* Use a media query for larger screens */
-@media (min-width: 992px) { /* Adjust this value according to your requirements */
+@media (min-width: 992px) {
+  /* Adjust this value according to your requirements */
   .bpw-layout {
     height: 80vh; /* 80% of viewport height on larger screens */
   }
@@ -29,5 +30,15 @@
 }
 
 .bpw-floating-button:hover {
-  background-color: #FFC966;
+  background-color: #ffc966;
+}
+
+.bpw-header-name {
+  /* sets the color of the element to white */
+  color: #ffffff;
+}
+
+.bpw-header-subtitle {
+  /* sets the color of the element to white */
+  color: #ffffff;
 }
