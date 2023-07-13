@@ -52,3 +52,10 @@
   /* sets the color of the element to white */
   color: white;
 }
+
+.bpw-composer {
+  /* padding: 0; Remove any padding */
+  /* position: relative; Set the position to relative */
+  /* outline: none; Remove any outline */
+  border: 2px; /* Remove any border */
+}
