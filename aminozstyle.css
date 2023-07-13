@@ -9,7 +9,7 @@
 
 .bpw-send-button {
   /* background-color: orange; */
-  color: rgba(255, 255, 255, 
+  color: rgba(255, 255, 255, 0);
   /* border-radius: 5px; Makes the button slightly rounded */
   /* color: white; Changes the text color to white */
   /* box-shadow: 2px 2px 5px black; Adds a shadow to the button */
@@ -20,7 +20,7 @@
 
 .bpw-send-button:hover {
   /* background-color: #ffc966; */
-  color: rgba(255, 255, 255, 
+  color: rgba(255, 255, 255, 0);
   /* border-radius: 5px; Makes the button slightly rounded */
   /* color: white; Changes the text color to white */
   /* box-shadow: 2px 2px 5px black; Adds a shadow to the button */
