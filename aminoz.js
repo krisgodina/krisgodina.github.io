@@ -7,6 +7,8 @@ window.botpressWebChat.init({
     "showBotInfoPage": true,
     "enableConversationDeletion": true,
     "showConversationsButton": false,
-    "showTimestamp": true,
-    "stylesheet": 'https://krisgodina.github.io/style.css',
+    "phoneNumber": '1300 264 669',
+    "emailAddress": 'hello@aminoz.com.au',
+    "website": 'https://www.aminoz.com.au/',
+    "stylesheet": 'https://krisgodina.github.io/aminozstyle.css',
 });
