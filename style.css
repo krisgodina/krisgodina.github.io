@@ -1,30 +1,25 @@
-/* Define a global variable for the orange color */
-:root {
-  --orange: #ffa500;
+/* Custom CSS for Botpress chatbot */
+
+/* Style the header */
+.bpw-header {
+  background-color: orange;
 }
 
 /* Style the send button */
 .bpw-send-button {
-  /* Use the orange variable as the background color */
-  background-color: var(--orange);
-  /* Set the border to none */
-  border: none;
-  /* Set the border radius to 50% to make it circular */
-  border-radius: 50%;
-  /* Set the width and height to 40 pixels */
-  width: 40px;
-  height: 40px;
-  /* Position the button at the bottom right corner of the composer */
-  position: absolute;
-  bottom: 0;
-  right: 0;
+  background-color: orange;
+  border-radius: 0; /* Removes roundness of the button */
+  color: white; /* Changes the text color to white */
 }
 
-/* Style the send icon inside the button */
-.bpw-send-button svg {
-  /* Use white as the fill color */
-  fill: white;
-  /* Center the icon inside the button */
-  display: block;
-  margin: auto;
+/* Style the widget height */
+.bpw-widget {
+  height: 100%; /* full height on smaller screens */
+}
+
+/* Use a media query for larger screens */
+@media (min-width: 992px) { /* Adjust this value according to your requirements */
+  .bpw-widget {
+    height: 80vh; /* 80% of viewport height on larger screens */
+  }
 }
