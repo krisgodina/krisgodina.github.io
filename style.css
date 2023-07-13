@@ -1,17 +1,30 @@
-/* Default style (for small screens) */
-.bpw-layout {
-  
+/* Define a global variable for the orange color */
+:root {
+  --orange: #ffa500;
 }
 
-/* Style for screens larger than 768px */
-@media (min-width: 768px) {
-  .bpw-layout {
-    height: 700px;
-  }
+/* Style the send button */
+.bpw-send-button {
+  /* Use the orange variable as the background color */
+  background-color: var(--orange);
+  /* Set the border to none */
+  border: none;
+  /* Set the border radius to 50% to make it circular */
+  border-radius: 50%;
+  /* Set the width and height to 40 pixels */
+  width: 40px;
+  height: 40px;
+  /* Position the button at the bottom right corner of the composer */
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
-
-.bpw-composer textarea {
-  background: orange; /* or #ffa500 */
-  /* rest of the code */
+/* Style the send icon inside the button */
+.bpw-send-button svg {
+  /* Use white as the fill color */
+  fill: white;
+  /* Center the icon inside the button */
+  display: block;
+  margin: auto;
 }
