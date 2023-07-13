@@ -8,7 +8,7 @@
 /* Style the send button */
 .bpw-send-button {
   background-color: orange;
-  border-radius: 10px; /* Makes the button slightly rounded */
+  border-radius: 5px; /* Makes the button slightly rounded */
   color: white; /* Changes the text color to white */
   box-shadow: 2px 2px 5px black; /* Adds a shadow to the button */
   background-image: url("https://icons.getbootstrap.com/icons/arrow-right.svg"); /* Adds a send icon to the button */
