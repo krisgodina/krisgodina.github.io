@@ -1,0 +1,25 @@
+/* Custom CSS for Botpress chatbot */
+
+/* Style the header */
+.bpw-header-container {
+    background: orange;
+}
+
+/* Style the send button */
+.bpw-send-button {
+  background-color: orange;
+  border-radius: 0; /* Removes roundness of the button */
+  color: white; /* Changes the text color to white */
+}
+
+/* Style the widget height */
+.bpw-layout {
+  height: 100%; /* full height on smaller screens */
+}
+
+/* Use a media query for larger screens */
+@media (min-width: 992px) { /* Adjust this value according to your requirements */
+  .bpw-layout {
+    height: 80vh; /* 80% of viewport height on larger screens */
+  }
+}
