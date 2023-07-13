@@ -24,9 +24,6 @@
   }
 }
 
-.bpw-floating-button .bpw-floating-button-unread {
-    /* Sets the color of the text inside the badge */
-    color: #fff;
-    /* Sets the background color of the badge */
-    background-color: orange;
+.bpw-floating-button {
+  background-color: orange;
 }
