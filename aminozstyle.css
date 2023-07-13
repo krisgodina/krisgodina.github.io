@@ -27,3 +27,7 @@
 .bpw-floating-button {
   background-color: orange;
 }
+
+.bpw-floating-button:hover {
+  background-color: #FFC966;
+}
