@@ -23,3 +23,10 @@
     height: 80vh; /* 80% of viewport height on larger screens */
   }
 }
+
+.bpw-floating-button .bpw-floating-button-unread {
+    /* Sets the color of the text inside the badge */
+    color: #fff;
+    /* Sets the background color of the badge */
+    background-color: orange;
+}
