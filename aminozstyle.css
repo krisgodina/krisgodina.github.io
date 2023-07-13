@@ -33,6 +33,7 @@
 
 .bpw-send-button:hover {
   /* background-color: #ffc966; */
+  background-color: transparent;
   color: transparent;
   display: flex; /* Set the button to be arranged using flexible layout */
   justify-content: center; /* Center the button's content horizontally */
