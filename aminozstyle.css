@@ -43,17 +43,7 @@
   color: #ffffff;
 }
 
-.bpw-delete-button {
-  /* sets the color of the element to white */
-  color: white;
-}
-
-.bpw-close-button {
-  /* sets the color of the element to white */
-  color: white;
-}
-
-.bpw-download-button {
+.bpw-header {
   /* sets the color of the element to white */
   color: white;
 }
