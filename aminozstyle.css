@@ -70,9 +70,9 @@
 }
 
 .bpw-layout {
-  width: 360px !important;
+  width: 360px;
   border: 1px solid #d3d3d3;
-  height: 70vh !important;
+  height: 70vh;
   border-radius: 10px;
   right: 10%;
   bottom: 5%;
