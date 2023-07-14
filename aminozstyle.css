@@ -83,9 +83,9 @@
 }
 
 .bpw-composer-inner {
-  padding: 10px; /* Remove any padding */
-  line-height: 0; /* Remove any line-height */
-  position: relative; /* Set the position to relative */
+  padding: 10px;
+  line-height: 0;
+  position: relative;
 
   /* Set the display property for different browsers */
   display: -webkit-box;
@@ -120,4 +120,12 @@
   width: 100%;
   /* Sets the margin on the right side to a variable named "--spacing-small" */
   margin-right: var(--spacing-small);
+  overflow: auto;
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none;
+}
+
+.bpw-composer textarea::-webkit-scrollbar {
+  /* For Chrome, Safari, and Opera */
+  display: none;
 }
