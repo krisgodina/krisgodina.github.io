@@ -101,7 +101,7 @@
   /* padding: 0; Remove any padding */
   /* position: relative; Set the position to relative */
   /* outline: none; Remove any outline */
-  border: 2px; /* Remove any border */
+  border: 1px solid lightgray; /* Remove any border */
   outline: 2px;
 }
 
