@@ -17,7 +17,7 @@ html {
 
 .bpw-header-container {
   margin: 10px 10px 0px 10px;
-  background: #4e4e4e;
+  background: orange;
   border-radius: 10px;
   position: relative;
   overflow: hidden;
@@ -67,7 +67,7 @@ html {
   fill: #ffffff !important;
 }
 .bpw-header-container {
-  color: #4e4e4e;
+  color: orange;
 }
 
 #input-message::placeholder {
@@ -75,7 +75,7 @@ html {
 }
 
 .bpw-keyboard-single-choice {
-  background-color: #000000;
+  background-color: #ffffff;
   border: none;
 }
 .bpw-button,
@@ -99,7 +99,7 @@ a {
 }
 
 .bpw-chat-container {
-  background-color: #000000;
+  background-color: #ffffff;
 }
 
 .bpw-from-bot .bpw-chat-bubble .bpw-chat-bubble-content {
@@ -108,22 +108,22 @@ a {
 }
 
 .bpw-from-user .bpw-chat-bubble .bpw-chat-bubble-content {
-  background-color: #000000;
+  background-color: #ffffff;
   color: #ffffff;
 }
 
 .bpw-composer {
-  background-color: #000000;
+  background-color: #ffffff;
   border-top: 1px solid #4b4b4b;
 }
 
 .bpw-chat-container::-webkit-scrollbar {
   width: 10px;
-  background-color: #000000;
+  background-color: #ffffff;
 }
 
 .bpw-chat-container::-webkit-scrollbar-thumb {
-  background-color: #000000;
+  background-color: #ffffff;
 }
 
 .bpw-bot-avatar img,
@@ -142,7 +142,7 @@ a {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #000000;
+  background-color: #ffffff;
   border-radius: 1rem;
   border: 0.5rem solid transparent;
 }
@@ -158,7 +158,7 @@ a {
 
 .bpw-chat-container {
   scrollbar-width: thin;
-  scrollbar-color: #4b4b4b #000000;
+  scrollbar-color: #4b4b4b #ffffff;
   border: none;
 }
 
@@ -173,7 +173,7 @@ a {
 }
 
 .bpw-chat-container::-moz-scrollbar-thumb {
-  background-color: #000000;
+  background-color: #ffffff;
   border: none;
 }
 
@@ -181,7 +181,7 @@ a {
   text-align: center;
   padding: 10px;
   color: #ffffff;
-  background: #000000;
+  background: #ffffff;
   font-size: 16px;
   border-top: none;
   border-bottom-right-radius: 10px;
