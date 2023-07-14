@@ -107,12 +107,4 @@
   transition: border 0.2s;
   width: 100%;
   margin-right: var(--spacing-small);
-  overflow: auto;
-  scrollbar-width: none; /* For Firefox */
-  -ms-overflow-style: none; /* For IE and Edge */
-}
-
-.bpw-composer textarea::-webkit-scrollbar {
-  /* For Chrome, Safari, and Opera */
-  display: none;
 }
