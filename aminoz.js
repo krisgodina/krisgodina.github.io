@@ -4,7 +4,7 @@ window.botpressWebChat.init({
   messagingUrl: "https://messaging.botpress.cloud",
   clientId: "d2038de9-8141-4e83-8ba9-52a07438048e",
   botName: "Aminoz",
-  disableAnimations: true,
+  //   disableAnimations: true,
   avatarUrl: "https://api.iconify.design/bx/bot.svg",
   // "showBotInfoPage": true,
   enableConversationDeletion: false,
