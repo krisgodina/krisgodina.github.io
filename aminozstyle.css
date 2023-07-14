@@ -84,7 +84,7 @@
 
 .bpw-composer-inner {
   padding: 10px;
-  line-height: 0;
+  /* line-height: 0; */
   position: relative;
 
   /* Set the display property for different browsers */
