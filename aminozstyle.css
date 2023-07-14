@@ -46,7 +46,7 @@
   background-position: center;
 }
 
-/* .bpw-layout {
+.bpw-layout {
   width: 360px !important;
   border: 1px;
   height: 70vh;
@@ -55,7 +55,7 @@
   bottom: 5%;
 }
 
-@media screen and (max-device-width: 767px) {
+/* @media screen and (max-device-width: 767px) {
   .bpw-layout {
     width: 100% !important;
     height: 100%;
