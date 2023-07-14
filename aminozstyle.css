@@ -13,9 +13,7 @@
   background: #ffa500;
 }
 
-#btn-delete i svg,
-#btn-download i svg,
-#btn-close i svg {
+#btn-close svg path {
   fill: #ffffff !important;
 }
 
