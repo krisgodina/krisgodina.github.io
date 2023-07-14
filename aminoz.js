@@ -14,6 +14,4 @@ window.botpressWebChat.init({
   emailAddress: "hello@aminoz.com.au",
   website: "https://www.aminoz.com.au/",
   stylesheet: "https://krisgodina.github.io/aminozstyle.css",
-  stylesheet: "https://krisgodina.github.io/default.css",
-  stylesheet: "https://krisgodina.github.io/font.css",
 });
