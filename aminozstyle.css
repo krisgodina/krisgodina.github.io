@@ -79,11 +79,6 @@
 
 @media screen and (max-device-width: 767px) {
   .bpw-layout {
-    width: 100% !important;
-    border: 1px solid #d3d3d3 !important;
-    height: 100vh !important;
-    right: 0% !important;
-    bottom: 0% !important;
   }
 }
 
