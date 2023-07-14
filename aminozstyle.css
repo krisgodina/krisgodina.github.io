@@ -13,10 +13,14 @@
   background: #ffa500;
 }
 
-#btn-delete svg,
-#btn-download svg,
-#btn-close svg {
+#btn-delete i svg,
+#btn-download i svg,
+#btn-close i svg {
   fill: #ffffff !important;
+}
+
+#bpw-header-container .bpw-keyboard-single-choice {
+  padding: 0 !important;
 }
 
 .bpw-send-buttons {
