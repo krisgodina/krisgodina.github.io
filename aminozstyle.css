@@ -2,7 +2,7 @@ Custom CSS for Botpress chatbot
 
 /* Style the header */
 .bpw-header-container {
-  background: orange;
+  background: #ffa500;
 }
 
 .bpw-send-buttons {
