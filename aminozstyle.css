@@ -13,6 +13,10 @@
   background: #ffa500;
 }
 
+.bpw-header-container #btn-delete svg {
+  fill: white !important;
+}
+
 .bpw-send-buttons {
   display: flex;
   flex-direction: row;
