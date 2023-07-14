@@ -93,4 +93,18 @@
   /* position: relative; Set the position to relative */
   /* outline: none; Remove any outline */
   border: 2px; /* Remove any border */
+  outline: 2px;
+}
+
+.bpw-composer-inner {
+  padding: 0; /* Remove any padding */
+  line-height: 0; /* Remove any line-height */
+  position: relative; /* Set the position to relative */
+
+  /* Set the display property for different browsers */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+
+  justify-content: space-between; /* Align items to the start and end of the container */
 }
