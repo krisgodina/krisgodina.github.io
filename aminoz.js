@@ -13,5 +13,8 @@ window.botpressWebChat.init({
   phoneNumber: "1300 264 669",
   emailAddress: "hello@aminoz.com.au",
   website: "https://www.aminoz.com.au/",
-  stylesheet: "https://krisgodina.github.io/aminozstyle.css",
+  stylesheet: [
+    "https://krisgodina.github.io/aminozstyle.css",
+    "https://krisgodina.github.io/default.css",
+  ],
 });
