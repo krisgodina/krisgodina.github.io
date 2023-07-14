@@ -60,6 +60,14 @@
   background-position: center;
 }
 
+.bpw-header-icon {
+  /* Remove border */
+  /* border: none; */
+  /* Remove background color */
+  background: none;
+  color: white;
+}
+
 .bpw-layout {
   width: 360px !important;
   border: 1px solid #d3d3d3;
