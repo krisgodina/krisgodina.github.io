@@ -95,7 +95,7 @@
   justify-content: space-between; /* Align items to the start and end of the container */
 }
 
-.bpw-composer textarea {
+/* .bpw-composer textarea {
   /* Sets the background color to a variable named "--white" */
   background: var(--white);
   /* Sets the border to a 1-pixel solid line using a variable named "--zinc-200" */
@@ -123,7 +123,7 @@
   overflow: auto;
   scrollbar-width: none; /* For Firefox */
   -ms-overflow-style: none;
-}
+} */
 
 .bpw-composer textarea::-webkit-scrollbar {
   /* For Chrome, Safari, and Opera */
