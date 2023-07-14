@@ -16,5 +16,6 @@ window.botpressWebChat.init({
   stylesheet: [
     "https://krisgodina.github.io/aminozstyle.css",
     "https://krisgodina.github.io/default.css",
+    "https://krisgodina.github.io/font.css",
   ],
 });
