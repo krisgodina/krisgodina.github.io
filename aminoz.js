@@ -5,8 +5,7 @@ window.botpressWebChat.init({
   clientId: "d2038de9-8141-4e83-8ba9-52a07438048e",
   botName: "Aminoz",
   disableAnimations: true,
-  avatarUrl:
-    "https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js",
+  avatarUrl: "https://api.iconify.design/bx/bot.svg?color=orange",
   // "showBotInfoPage": true,
   enableConversationDeletion: false,
   showConversationsButton: false,
