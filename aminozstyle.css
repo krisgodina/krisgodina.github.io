@@ -73,10 +73,10 @@
   .bpw-layout {
     width: 360px;
     border: 1px solid #d3d3d3;
-    height: 70vh;
+    height: 100vh;
     border-radius: 10px;
-    right: 10%;
-    bottom: 5%;
+    right: 0%;
+    bottom: 0%;
   }
 }
 
