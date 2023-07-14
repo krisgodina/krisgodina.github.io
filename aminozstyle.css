@@ -1,3 +1,12 @@
+:root {
+  --white: #ffffff; /* replace with the color you desire */
+  --zinc-200: #cccccc; /* replace with the color you desire */
+  --zinc-900: #333333; /* replace with the color you desire */
+  --spacing-medium: 10px; /* replace with the spacing you desire */
+  --spacing-large: 20px; /* replace with the spacing you desire */
+  --spacing-small: 5px; /* replace with the spacing you desire */
+}
+
 /* Style the header */
 .bpw-header-container {
   background: #ffa500;
@@ -107,4 +116,8 @@
   display: flex;
 
   justify-content: space-between; /* Align items to the start and end of the container */
+}
+
+.bpw-composer-textarea {
+  flex-grow: 2; /* Allow the textarea to grow to fill the available space */
 }
