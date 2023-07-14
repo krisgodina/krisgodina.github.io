@@ -83,7 +83,7 @@
 }
 
 .bpw-composer-inner {
-  padding: 10px;
+  padding: 20px;
   /* line-height: 0; */
   position: relative;
 
@@ -95,35 +95,22 @@
   justify-content: space-between; /* Align items to the start and end of the container */
 }
 
-/* .bpw-composer textarea {
-  /* Sets the background color to a variable named "--white" */
+.bpw-composer textarea {
   background: var(--white);
-  /* Sets the border to a 1-pixel solid line using a variable named "--zinc-200" */
   border: 1px solid var(--gray-200);
-  /* Sets the border radius to a variable named "--spacing-medium" to make the edges rounded */
   border-radius: var(--spacing-medium);
-  /* Sets the text color to a variable named "--zinc-900" */
   color: var(--zinc-900);
-  /* Inherits the font family from the parent element */
   font-family: inherit;
-  /* Sets the font size to 12 pixels */
   font-size: 16px;
-  /* Sets the height of the textarea to 54 pixels */
-  /* height: 54px; */
-  /* Sets the padding on the top to 19 pixels, and on the right and left to a variable named "--spacing-large" */
-  padding: 19px var(--spacing-large) var(--spacing-large);
-  /* Disables the ability to resize the textarea */
+  /* padding: 5px; */
   resize: none;
-  /* Adds a 0.2-second transition effect to the border when the focus changes */
   transition: border 0.2s;
-  /* Sets the width of the textarea to 100% */
   width: 100%;
-  /* Sets the margin on the right side to a variable named "--spacing-small" */
   margin-right: var(--spacing-small);
   overflow: auto;
   scrollbar-width: none; /* For Firefox */
-  -ms-overflow-style: none;
-} */
+  -ms-overflow-style: none; /* For IE and Edge */
+}
 
 .bpw-composer textarea::-webkit-scrollbar {
   /* For Chrome, Safari, and Opera */
