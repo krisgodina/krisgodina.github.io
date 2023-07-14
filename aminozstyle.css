@@ -16,7 +16,7 @@
 #btn-delete svg,
 #btn-download svg,
 #btn-close svg {
-  fill: #ffffff;
+  fill: #ffffff !important;
 }
 
 .bpw-send-buttons {
