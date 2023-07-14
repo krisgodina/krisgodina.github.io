@@ -13,8 +13,10 @@
   background: #ffa500;
 }
 
-.bpw-header-container #btn-delete {
-  color: white !important;
+#btn-delete svg,
+#btn-download svg,
+#btn-close svg {
+  fill: #ffffff;
 }
 
 .bpw-send-buttons {
