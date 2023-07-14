@@ -83,7 +83,7 @@
 }
 
 .bpw-composer-inner {
-  padding: 2px; /* Remove any padding */
+  padding: 10px; /* Remove any padding */
   line-height: 0; /* Remove any line-height */
   position: relative; /* Set the position to relative */
 
@@ -109,7 +109,7 @@
   /* Sets the font size to 12 pixels */
   font-size: 16px;
   /* Sets the height of the textarea to 54 pixels */
-  height: 54px;
+  /* height: 54px; */
   /* Sets the padding on the top to 19 pixels, and on the right and left to a variable named "--spacing-large" */
   padding: 19px var(--spacing-large) var(--spacing-large);
   /* Disables the ability to resize the textarea */
