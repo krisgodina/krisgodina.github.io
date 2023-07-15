@@ -17,10 +17,6 @@
   fill: #ffffff !important;
 }
 
-.bpw-button {
-  padding: 5px 5px 5px 20px;
-}
-
 .bpw-send-buttons {
   display: flex;
   flex-direction: row;
@@ -41,7 +37,7 @@
 }
 
 #bpw-keyboard-prepend .bpw-keyboard-single-choice {
-  padding: 0 !important;
+  padding: 5px 5px 5px 20px;
 }
 
 .bpw-send-button:hover {
