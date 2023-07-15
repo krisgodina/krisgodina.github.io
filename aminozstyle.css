@@ -62,7 +62,7 @@
   /* Remove border */
   /* border: none; */
   /* Remove background color */
-  background: transparent !important;
+  background: white !important;
 }
 
 .bpw-bot-avatar img {
@@ -79,7 +79,7 @@
   border-radius: 0;
 } */
 
-@media only screen and (min-width: 769px) {
+@media (min-width: 768px) {
   .bpw-layout {
     width: 360px;
     border: 1px solid #d3d3d3;
