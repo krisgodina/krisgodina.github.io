@@ -79,7 +79,7 @@
   border-radius: 0;
 } */
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .bpw-layout {
     width: 360px !important;
     border: 1px solid #d3d3d3;
@@ -97,14 +97,66 @@
     right: 2%;
     bottom: 2%;
   }
+} */
+
+.bpw-layout {
+  width: 360px !important;
+  border: 1px solid #d3d3d3;
+  height: 80%;
+  border-radius: 5px;
+  right: 2%;
+  bottom: 2%;
 }
 
 .bpw-chat-container {
-  height: 30% !important;
+  width: 360px !important;
+  border: 1px solid #d3d3d3;
+  height: 80%;
+  border-radius: 5px;
+  right: 2%;
+  bottom: 2%;
 }
 
 .bpw-anim-fadeIn {
-  height: 30% !important;
+  width: 360px !important;
+  border: 1px solid #d3d3d3;
+  height: 80%;
+  border-radius: 5px;
+  right: 2%;
+  bottom: 2%;
+}
+
+@media only screen and (max-width: 768px) {
+  .bpw-layout {
+    width: 100% !important;
+    border: 1px solid #d3d3d3;
+    height: 100%;
+    border-radius: 5px;
+    right: 2%;
+    bottom: 2%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .bpw-chat-container {
+    width: 100% !important;
+    border: 1px solid #d3d3d3;
+    height: 100%;
+    border-radius: 5px;
+    right: 2%;
+    bottom: 2%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .bpw-anim-fadeIn {
+    width: 100% !important;
+    border: 1px solid #d3d3d3;
+    height: 100%;
+    border-radius: 5px;
+    right: 2%;
+    bottom: 2%;
+  }
 }
 
 .bpw-floating-button {
