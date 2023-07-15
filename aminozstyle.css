@@ -62,11 +62,11 @@
   /* Remove border */
   /* border: none; */
   /* Remove background color */
-  background: white !important;
+  background: transparent !important;
 }
 
 .bpw-bot-avatar img {
-  background: transparent;
+  background: white;
 }
 
 /* .bpw-layout {
