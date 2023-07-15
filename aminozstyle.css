@@ -83,7 +83,7 @@
   .bpw-layout {
     width: 360px;
     border: 1px solid #d3d3d3;
-    height: 80%;
+    height: 80% !important;
     border-radius: 5px;
     right: 3%;
     bottom: 3%;
