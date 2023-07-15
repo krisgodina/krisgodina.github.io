@@ -93,7 +93,7 @@
 
 @media only screen and (max-width: 768px) {
   .bpw-layout {
-    width: 100%;
+    width: 100% !important;
     height: 100%;
     right: 10%;
     bottom: 10%;
