@@ -102,22 +102,13 @@
 .bpw-layout {
   width: 360px !important;
   border: 1px solid #d3d3d3;
-  height: 80%;
-  border-radius: 5px;
+  height: 85%;
+  border-radius: 1px;
   right: 2%;
   bottom: 2%;
 }
 
-.bpw-chat-container {
-  width: 360px !important;
-  border: 1px solid #d3d3d3;
-  height: 80%;
-  border-radius: 5px;
-  right: 2%;
-  bottom: 2%;
-}
-
-.bpw-anim-fadeIn {
+/* .bpw-chat-container {
   width: 360px !important;
   border: 1px solid #d3d3d3;
   height: 80%;
@@ -146,18 +137,7 @@
     right: 2%;
     bottom: 2%;
   }
-}
-
-@media only screen and (max-width: 768px) {
-  .bpw-anim-fadeIn {
-    width: 100% !important;
-    border: 1px solid #d3d3d3;
-    height: 100%;
-    border-radius: 5px;
-    right: 2%;
-    bottom: 2%;
-  }
-}
+} */
 
 .bpw-floating-button {
   background-color: orange;
