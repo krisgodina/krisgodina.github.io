@@ -17,9 +17,9 @@
   fill: #ffffff !important;
 }
 
-#bpw-header-container .bpw-keyboard-single-choice {
+/* #bpw-header-container .bpw-keyboard-single-choice {
   padding: 0 !important;
-}
+} */
 
 .bpw-send-buttons {
   display: flex;
