@@ -1,26 +1,13 @@
 :root {
-  --white: #ffffff; /* replace with the color you desire */
-  --zinc-200: #cccccc; /* replace with the color you desire */
-  --zinc-900: #333333; /* replace with the color you desire */
-  --gray-200: #d3d3d3; /* replace with the color you desire */
-  --spacing-medium: 10px; /* replace with the spacing you desire */
-  --spacing-large: 20px; /* replace with the spacing you desire */
-  --spacing-small: 5px; /* replace with the spacing you desire */
-}
-
-/* Style the header */
-.bpw-header-container {
-  background: #ff0000;
-}
-
-#btn-close svg path {
-  fill: #ffffff !important;
-}
-
-.bpw-send-buttons {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+  --primary: #ff2e2e;
+  --secondary: #ff8a8a;
+  --white: #ffffff;
+  --zinc-200: #cccccc;
+  --zinc-900: #333333;
+  --gray-200: #d3d3d3;
+  --spacing-medium: 10px;
+  --spacing-large: 20px;
+  --spacing-small: 5px;
 }
 
 .bpw-send-button {
@@ -29,14 +16,10 @@
   justify-content: center; /* Center the button's content horizontally */
   align-items: center; /* Center the button's content vertically */
   cursor: pointer;
-  background-image: url('data:image/svg+xml,%3Csvg xmlns="http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg" width="24" height="24" viewBox="0 0 24 24"%3E%3Cpath fill="red" d="M3 20v-6l8-2l-8-2V4l19 8l-19 8Z"%2F%3E%3C%2Fsvg%3E'); /* Adds a send icon to the button */
+  background-image: url('data:image/svg+xml,%3Csvg xmlns="http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg" width="24" height="24" viewBox="0 0 24 24"%3E%3Cpath fill="%23ff2e2e" d="M3 20v-6l8-2l-8-2V4l19 8l-19 8Z"%2F%3E%3C%2Fsvg%3E'); /* Adds a send icon to the button */
   background-repeat: no-repeat; /* Prevents the icon from repeating */
   background-size: 30px; /* Adjusts the size of the icon */
   background-position: center;
-}
-
-#bpw-keyboard-prepend .bpw-keyboard-single-choice {
-  padding: 10px 0px 0px 20px;
 }
 
 .bpw-send-button:hover {
@@ -50,6 +33,25 @@
   background-repeat: no-repeat;
   background-size: 30px;
   background-position: center;
+}
+
+/* Style the header */
+.bpw-header-container {
+  background: var(--primary);
+}
+
+#btn-close svg path {
+  fill: #ffffff !important;
+}
+
+.bpw-send-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#bpw-keyboard-prepend .bpw-keyboard-single-choice {
+  padding: 10px 0px 0px 20px;
 }
 
 .bpw-header-icon {
@@ -69,11 +71,11 @@
 }
 
 .bpw-floating-button {
-  background-color: #ff0000;
+  background-color: var(--primary);
 }
 
 .bpw-floating-button:hover {
-  background-color: #ff7f7f;
+  background-color: var(--secondary);
 }
 
 .bpw-header-name {
