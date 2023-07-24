@@ -7,6 +7,7 @@ window.botpressWebChat.init({
   //   disableAnimations: true,
   avatarUrl: "https://api.iconify.design/fluent-emoji/robot.svg",
   // "showBotInfoPage": true,
+  useSessionStorage: true,
   enableConversationDeletion: false,
   showConversationsButton: false,
   enableTranscriptDownload: false,
