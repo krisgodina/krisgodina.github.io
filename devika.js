@@ -15,3 +15,24 @@ window.botpressWebChat.init({
   website: "https://devika.com/",
   stylesheet: "https://krisgodina.github.io/standard.css",
 });
+
+window.botpressWebChat.onEvent(
+  function (ev) {
+    window.botpressWebChat.sendEvent({
+      type: "loadConversation",
+    });
+  },
+  ["LIFECYCLE.LOADED"]
+);
+window.addEventListener("message", function (event) {
+  // console.log(event.data.type);
+  if (event.data.type == "LIFECYCLE.READY") {
+    window.botpressWebChat.sendEvent({
+      type: "trigger",
+      channel: "web",
+      payload: {
+        text: "",
+      },
+    });
+  }
+});
