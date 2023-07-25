@@ -10,6 +10,7 @@ window.botpressWebChat.init({
   enableConversationDeletion: false,
   showConversationsButton: false,
   enableTranscriptDownload: false,
+  useSessionStorage: true,
   phoneNumber: "0408 494 785",
   emailAddress: "kris.godina@outlook.com",
   website: "https://www.krisgodina.com",
