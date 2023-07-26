@@ -13,6 +13,10 @@
   background: #ffa500;
 }
 
+.bpw-chat-bubble-content {
+  max-width: 50% !important; /* Adjust this to your desired maximum width */
+}
+
 #btn-close svg path {
   fill: #ffffff !important;
 }
