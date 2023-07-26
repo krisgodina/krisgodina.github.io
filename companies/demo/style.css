@@ -14,7 +14,7 @@
 }
 
 .slick-slider.slick-initialized {
-  max-width: 80% !important; /* Adjust this to your desired maximum width */
+  max-width: 90% !important; /* Adjust this to your desired maximum width */
 }
 
 #btn-close svg path {
