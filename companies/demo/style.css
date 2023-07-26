@@ -10,7 +10,7 @@
 
 .bpw-button {
   border-radius: 8px; /* Makes the corners round. You can adjust this value. */
-  background-color: #ffa500; /* Sets the background color to #ffa500. */
+  background-color: #ff8c00; /* Sets the background color to #ffa500. */
   color: white; /* Sets the text color to white. */
   transition: background-color 0.3s ease; /* Optional: Adds a smooth transition effect when the button state changes. */
 }
