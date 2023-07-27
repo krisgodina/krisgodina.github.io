@@ -3,7 +3,7 @@ window.botpressWebChat.init({
   hostUrl: "https://cdn.botpress.cloud/webchat/v0",
   messagingUrl: "https://messaging.botpress.cloud",
   clientId: "73206e10-4715-4c44-ae1d-d29be9d5c810",
-  botName: "Customer Support",
+  botName: "OptimizePal",
   //   disableAnimations: true,
   avatarUrl: "https://api.iconify.design/fluent-emoji/robot.svg",
   // "showBotInfoPage": true,
