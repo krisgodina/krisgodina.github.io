@@ -6,6 +6,7 @@
       verify: { projectID: "64cb05b889cc410007badbcd" },
       url: "https://general-runtime.voiceflow.com",
       versionID: "production",
+      style: "form",
     });
   };
   v.src = "https://cdn.voiceflow.com/widget/bundle.mjs";
